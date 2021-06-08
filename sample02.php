@@ -18,10 +18,10 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<?php
-date_default_timezone_set('Asia/Tokyo');
-print(date('G時 i分 s秒'));
-?>
+<?php $sum = 100 + 200 + 500; ?>
+<?php $tax = 1.08; ?>
+合計金額は： <?php print($sum); ?>円です
+税込み金額は： <?php print($sum * $tax); ?>円です
 </pre>
 </main>
 </body>
